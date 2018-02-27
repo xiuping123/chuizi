@@ -1,0 +1,8 @@
+.shop{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.ssection{
+	flex: 1;
+}
