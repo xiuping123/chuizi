@@ -69,7 +69,7 @@ export default class Home extends Component {
 					<div className="Hpart1">
 						<div className="banner">
 							 <Carousel
-        					   autoplay={false}
+        					   autoplay={true}
         					   infinite
         					   selectedIndex={1}
         					   beforeChange={(from, to) => console.log(`slide from ${from} to ${to}`)}

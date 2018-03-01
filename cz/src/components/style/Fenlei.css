@@ -5,4 +5,32 @@
 }
 .fsection{
 	flex: 1;
+	overflow: auto;
+}
+
+.fdiv{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+	margin-bottom: 0.1rem;
+}
+.fdiv>h3{
+	width: 100%;
+	height: 0.4rem;
+	font-size: 14px;
+	font-weight: 700;
+	color: #666;
+	line-height: 0.4rem;
+	border-bottom: 1px solid #ebebeb;
+}
+.fdiv>img{
+	padding-top: 0.1rem;
+	width: 3.5rem;
+	height: 0.9rem;
+	padding-bottom: 0.1rem;
+	border-bottom: 1px solid #ebebeb;
+
 }
