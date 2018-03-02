@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Fenlei from './components/Fenlei';
 import Shop from './components/Shop';
 import Mine from './components/Mine';
+import Detail from './components/Detail';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <Route path="/fenlei" component={Fenlei} />
           <Route path="/shop" component={Shop} />
           <Route path="/mine" component={Mine} />
+          <Route path="/detail" component={Detail} />
         </div>
       </Router>
     );
