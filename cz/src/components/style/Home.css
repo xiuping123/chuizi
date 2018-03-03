@@ -117,19 +117,19 @@
 	margin-top: 0.15rem;
 }
 
-.hotshopul>li>img{
+.hotshopul>li img{
 	border: 1px solid #ebebeb;
 	width: 1.26rem;
 	height: 1.26rem;
 	margin-bottom: 0.1rem;
 }
-.hotshopul>li>h4{
+.hotshopul>li h4{
 	width: 1.26rem;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
-.hotshopul>li>h5{
+.hotshopul>li h5{
 	width: 1.26rem;
 	white-space: nowrap;
 	overflow: hidden;
@@ -137,7 +137,7 @@
 	color: #666;
 	margin-top: 0.05rem;
 }
-.hotshopul>li>h6{
+.hotshopul>li h6{
 	color: #d44d44;
 	font-weight: 700;
 	margin-top: 0.05rem;

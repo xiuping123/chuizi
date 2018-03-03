@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {NavLink} from 'react-router-dom';
 import Footer from './Footer';
 import './style/Home.css';
 import { Carousel } from 'antd-mobile';
@@ -111,10 +112,12 @@ export default class Home extends Component {
 									this.state.hotshop.map((item,index)=>{
 										return(
 											<li key={item.id}>
+											<NavLink to={"/detail/"+item.id}>
 												<img src={item.shop_info.ali_image} />
 												<h4>{item.name}</h4>
 												<h5>{item.shop_info.sku_mobile_sub_title}</h5>
 												<h6>￥{item.price}</h6>
+											</NavLink>
 											</li>
 										)
 										

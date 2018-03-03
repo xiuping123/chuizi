@@ -1,8 +1,39 @@
+
 .mine{
 	display: flex;
 	flex-direction: column;
 	height: 100%;
 }
-.msection{
+.dsection{
 	flex: 1;
+	
+}
+.dsection>div{
+	width: 100%;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.fnav{
+	height: 0.5rem;
+	background: #f2f2f2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fnav>ul{
+	display: flex;
+}
+.fnav>ul>li{
+	width: 0.9rem;
+	height: 0.32rem;
+	line-height: 0.32rem;
+	text-align: center;
+	border:1px solid #ccc;
+}
+.dbanner{
+	width: 3rem;
+	height: 3rem;
 }
