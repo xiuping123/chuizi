@@ -52,8 +52,8 @@ export default class Mine extends Component {
 					}
 				</div>
 				<div className="dbottom">
-					<Button type="primary" inline size="small" style={{ marginRight: '4px' }}>primary</Button>
-					<Button type="ghost" inline size="small" style={{ marginRight: '4px' }}>ghost</Button>
+					<Button type="ghost" inline size="small" style={{ width:'1.5rem' }}>加入购物车</Button>
+					<Button type="primary" inline size="small" style={{ width: '1.5rem' }}>现在购买</Button>
 				</div>
 				
 			</div>

@@ -1,4 +1,9 @@
+.detail{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 
+}
 .mine{
 	display: flex;
 	flex-direction: column;
@@ -36,4 +41,12 @@
 .dbanner{
 	width: 3rem;
 	height: 3rem;
+}
+.dbottom{
+	height: 0.57rem;
+	background: #fff;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
 }
